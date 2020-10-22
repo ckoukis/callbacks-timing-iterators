@@ -2,7 +2,7 @@ function checkNumber(num) {
     if (num > 0) {
         return 'positive';
     } else if (num < 0) {
-        return 'negative'
+        return 'negative';
     } else {
         return 'zero';
     }
@@ -14,7 +14,7 @@ function checkNumber(num) {
     if (num > 0) {
         return 'positive';
     } else if (num < 0) {
-        return 'negative'
+        return 'negative';
     } else {
         return 'zero';
     }
@@ -26,7 +26,7 @@ function checkNumber(num) {
     if (num > 0) {
         return 'positive';
     } else if (num < 0) {
-        return 'negative'
+        return 'negative';
     } else {
         return 'zero';
     }
@@ -38,7 +38,7 @@ function checkNumber(num) {
     if (num > 0) {
         return 'positive';
     } else if (num < 0) {
-        return 'negative'
+        return 'negative';
     } else {
         return 'zero';
     }
@@ -57,3 +57,63 @@ function checkNumber(num) {
 }
 
 console.log(checkNumber(5));
+
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive';
+    } else if (num < 0) {
+        return 'negative'
+    } else {
+        return 'zero';
+    }
+}
+
+console.log(checkNumber(-5));
+
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive';
+    } else if (num < 0) {
+        return 'negative';
+    } else {
+        return 'zero';
+    }
+}
+
+console.log(checkNumber(-1002002))
+
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive';
+    } else if (num < 0) {
+        return 'negative';
+    } else {
+        return 'zero';
+    }
+}
+
+console.log(checkNumber(0));
+
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive';
+    } else if (num < 0) {
+        return 'negative';
+    } else {
+        return 'zero';
+    }
+}
+
+console.log(checkNumber(50))
+
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive';
+    } else if (num < 0) {
+        return 'negative';
+    } else {
+        return 'zero';
+    }
+}
+
+console.log(checkNumber(0));
